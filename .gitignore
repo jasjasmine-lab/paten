@@ -1,0 +1,56 @@
+# 数据文件
+*.xlsx
+*.csv
+*.json
+!requirements.json
+!model_*_results.json
+
+# 模型权重
+*.pth
+*.pt
+*.bin
+*.h5
+*.ckpt
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.bak
+*.cache
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 测试覆盖率
+htmlcov/
+.coverage
+.pytest_cache/
+
+# 分发/打包
+build/
+dist/
+*.egg-info/
